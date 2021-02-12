@@ -1,0 +1,144 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="adminpage.master.cs" Inherits="adminpage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="G:\dotnet\css\bootsrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="G:\dotnet\css\bootsrap-theme.min.css" />
+    <link rel="stylesheet" type="text/css" href="G:\dotnet\css\hover.min.css" />
+    <link rel="stylesheet" type="text/css" href="font-awesome-4.7.0\css\font-awesome.css" />
+    <link rel="stylesheet" type="text/css" href="font-awesome-4.7.0\css\font-awesome.min.css" />
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <script type="text/javascript" src="G:\dotnet\js\jquery.js"></script>
+     <script type="text/javascript" src="G:\dotnet\js\bootstrap.min.js"></script>
+   
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+     <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+            border: 1px solid #006600;
+        }
+        ul{
+            list-style-type: none;
+            margin:0;
+            padding:0;
+            overflow :hidden;
+            background-color: #93b3eb;
+            color:white;
+          
+        }
+       
+        li {
+            float: left; 
+        }
+            
+        li a {
+            
+            display: block;
+            color:White;
+            text-align:center;
+            padding:14px 16px;
+            text-decoration:none;
+             }
+            li a:hover {
+                background-color:#f7f7f7;
+                color:black;
+            }
+        .auto-style2 {
+            text-align: center;
+        }
+        .auto-style3 {
+            color: #FFFFFF;
+        }
+        /* Style the navbar */
+#navbar {
+  overflow: hidden;
+  /*background-color: #333;*/
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+        #wish {
+            color:red;
+        }
+        #wish:hover {
+            color:white;
+            background-color:red;
+        }
+
+
+   </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+            <div>
+                <nav id="navbar">
+                    <div  id="myTopnav">
+                        <ul class="nav navbar-nav" style="background-color:#93b3eb; ; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; ">
+                            <li ><a href="sales rocord.aspx"><span class="fa fa-home" style="font-size:20px"></span>Daily sales record</a></li>
+                            <li ><a href="log history.aspx"><span class="fa fa-male" style="font-size:20px"></span>Daily log history</a></li>
+                            <li ><a href="login.aspx"><span class="fa fa-reply" style="font-size:20px"></span>Logout</a></li>
+                        <%--<li style="float:right"><a href="c.aspx"><span class="fa fa-reply" style="font-size:20px"></span>c</a></li>--%>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        
+        </asp:ContentPlaceHolder>
+
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+            <div>
+
+
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+
+
+            </div>
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>
